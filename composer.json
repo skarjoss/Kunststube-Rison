@@ -1,5 +1,5 @@
 {
-    "name": "kunststube/rison",
+    "name": "skarjoss/rison",
     "description": "A PHP encoder and decoder for Rison, the compact JSON-like data format optimized for URIs.",
     "keywords": ["rison", "encode", "decode"],
     "homepage": "https://github.com/deceze/Kunststube-Rison",
