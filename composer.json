@@ -1,5 +1,5 @@
 {
-    "name": "skarjoss/rison",
+    "name": "kunststube/rison",
     "description": "A PHP encoder and decoder for Rison, the compact JSON-like data format optimized for URIs.",
     "keywords": ["rison", "encode", "decode"],
     "homepage": "https://github.com/deceze/Kunststube-Rison",
@@ -11,11 +11,11 @@
         }
     ],
     "autoload": {
-        "psr-0": { "Kunststube\\Rison": "" },
-        "files": ["rison_functions.php"]
+        "psr-0": { "Kunststube\\Rison": "Kunststube/Rison" },
+        "files": ["Kunststube/Rison/rison_functions.php"]
     },
     "require": {
-        "php": ">=5.3.0"
+        "php": "^8.2 || ^8.3 || ^8.4"
     },
     "target-dir": "Kunststube/Rison"
 }
